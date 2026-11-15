@@ -1,0 +1,105 @@
+{
+  "model": "forest",
+  "data_sha256": "7f3850ff469fd603319d659b882ad13e773392d719c3996722c452a17d124279",
+  "may_mae": 4.83200411534367,
+  "winner": {
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 30,
+      "min_samples_leaf": 4,
+      "max_features": 0.35
+    },
+    "fold_mae": [
+      4.424383617101547,
+      4.450811926397759,
+      4.433751614090829
+    ],
+    "mean_mae": 4.4363157191967115
+  },
+  "search": [
+    {
+      "params": {
+        "n_estimators": 70,
+        "max_depth": 12,
+        "min_samples_leaf": 15,
+        "max_features": 0.15
+      },
+      "fold_mae": [
+        5.056751298406241,
+        5.1272896026847,
+        5.184950087460427
+      ],
+      "mean_mae": 5.122996996183789
+    },
+    {
+      "params": {
+        "n_estimators": 70,
+        "max_depth": 18,
+        "min_samples_leaf": 10,
+        "max_features": 0.15
+      },
+      "fold_mae": [
+        4.781886083640719,
+        4.848890035353549,
+        4.893450432935148
+      ],
+      "mean_mae": 4.8414088506431385
+    },
+    {
+      "params": {
+        "n_estimators": 70,
+        "max_depth": 24,
+        "min_samples_leaf": 5,
+        "max_features": 0.15
+      },
+      "fold_mae": [
+        4.555595679082637,
+        4.613066912090759,
+        4.631969937466545
+      ],
+      "mean_mae": 4.600210842879981
+    },
+    {
+      "params": {
+        "n_estimators": 90,
+        "max_depth": 22,
+        "min_samples_leaf": 8,
+        "max_features": 0.25
+      },
+      "fold_mae": [
+        4.590012145578469,
+        4.666863008850067,
+        4.654898242241573
+      ],
+      "mean_mae": 4.637257798890036
+    },
+    {
+      "params": {
+        "n_estimators": 90,
+        "max_depth": 28,
+        "min_samples_leaf": 4,
+        "max_features": 0.25
+      },
+      "fold_mae": [
+        4.435999097952604,
+        4.488865003220904,
+        4.429948020595576
+      ],
+      "mean_mae": 4.451604040589695
+    },
+    {
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 30,
+        "min_samples_leaf": 4,
+        "max_features": 0.35
+      },
+      "fold_mae": [
+        4.424383617101547,
+        4.450811926397759,
+        4.433751614090829
+      ],
+      "mean_mae": 4.4363157191967115
+    }
+  ]
+}
