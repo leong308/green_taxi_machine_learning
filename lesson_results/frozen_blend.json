@@ -1,0 +1,6 @@
+{
+  "first": "catboost",
+  "second": "ridge",
+  "first_weight": 0.9,
+  "data_sha256": "7f3850ff469fd603319d659b882ad13e773392d719c3996722c452a17d124279"
+}
