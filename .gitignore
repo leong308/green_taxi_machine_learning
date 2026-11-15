@@ -1,0 +1,5 @@
+# Virtual environment generated files too much
+/.venv/
+
+# Setup script to download monthly source files (from build_shared_data.py)
+/data/lesson_raw/green_tripdata_*.parquet
