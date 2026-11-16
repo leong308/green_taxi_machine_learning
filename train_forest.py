@@ -74,7 +74,7 @@ def build_model(params):
     ])
 
 
-#b4
+#b4 Initial training
 params = {"n_estimators": 70, "max_depth": 24,
           "min_samples_leaf": 15, "max_features": 0.15}
 
@@ -92,7 +92,7 @@ print(pd.DataFrame({
     "prediction": prediction[:5]
 }).round(2))
 
-#b5
+#b5Hyperparameter tuning
 
 candidates = [
     {"n_estimators": trees, "max_depth": depth,
@@ -110,7 +110,7 @@ candidates = [
 print(len(candidates), "configurations")
 
 
-#b6
+#b6 Hyperparameter tuning
 
 REUSE_TUNING = True
 RESULTS.mkdir(exist_ok=True)
