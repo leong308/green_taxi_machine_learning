@@ -1,0 +1,2204 @@
+{
+  "step_percent": 5,
+  "selection_month": "2024-05",
+  "evaluation_month": "2024-06",
+  "june_role": "Exploratory comparison; June was already inspected.",
+  "data_sha256": "7f3850ff469fd603319d659b882ad13e773392d719c3996722c452a17d124279",
+  "pair_trials_including_endpoints": 63,
+  "unique_weight_vectors": 231,
+  "genuine_all_three_trials": 171,
+  "selected": {
+    "Best two-model blend": {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 0,
+        "catboost": 85
+      },
+      "active_models": 2,
+      "may_mae": 4.285697810836908
+    },
+    "Best all-three blend": {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 5,
+        "catboost": 85
+      },
+      "active_models": 3,
+      "may_mae": 4.283484462684202
+    },
+    "Overall May winner": {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 5,
+        "catboost": 85
+      },
+      "active_models": 3,
+      "may_mae": 4.283484462684202
+    }
+  },
+  "may_trials": [
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 0,
+        "catboost": 100
+      },
+      "active_models": 1,
+      "may_mae": 4.294001693207283
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 5,
+        "catboost": 95
+      },
+      "active_models": 2,
+      "may_mae": 4.289621922142991
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 10,
+        "catboost": 90
+      },
+      "active_models": 2,
+      "may_mae": 4.28875760045625
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 15,
+        "catboost": 85
+      },
+      "active_models": 2,
+      "may_mae": 4.291475741947539
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 20,
+        "catboost": 80
+      },
+      "active_models": 2,
+      "may_mae": 4.297717709588419
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 25,
+        "catboost": 75
+      },
+      "active_models": 2,
+      "may_mae": 4.307378677549761
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 30,
+        "catboost": 70
+      },
+      "active_models": 2,
+      "may_mae": 4.320607254879206
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 35,
+        "catboost": 65
+      },
+      "active_models": 2,
+      "may_mae": 4.337394615834686
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 40,
+        "catboost": 60
+      },
+      "active_models": 2,
+      "may_mae": 4.357855017148296
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 45,
+        "catboost": 55
+      },
+      "active_models": 2,
+      "may_mae": 4.381957693882121
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 50,
+        "catboost": 50
+      },
+      "active_models": 2,
+      "may_mae": 4.409259350778422
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 55,
+        "catboost": 45
+      },
+      "active_models": 2,
+      "may_mae": 4.439788779369614
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 60,
+        "catboost": 40
+      },
+      "active_models": 2,
+      "may_mae": 4.473519811033384
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 65,
+        "catboost": 35
+      },
+      "active_models": 2,
+      "may_mae": 4.510640421989166
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 70,
+        "catboost": 30
+      },
+      "active_models": 2,
+      "may_mae": 4.549994519507741
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 75,
+        "catboost": 25
+      },
+      "active_models": 2,
+      "may_mae": 4.591374224653801
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 80,
+        "catboost": 20
+      },
+      "active_models": 2,
+      "may_mae": 4.634990334286701
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 85,
+        "catboost": 15
+      },
+      "active_models": 2,
+      "may_mae": 4.680935300793397
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 90,
+        "catboost": 10
+      },
+      "active_models": 2,
+      "may_mae": 4.729000077480592
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 95,
+        "catboost": 5
+      },
+      "active_models": 2,
+      "may_mae": 4.779412164242909
+    },
+    {
+      "weights_percent": {
+        "ridge": 0,
+        "forest": 100,
+        "catboost": 0
+      },
+      "active_models": 1,
+      "may_mae": 4.83200411534367
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 0,
+        "catboost": 95
+      },
+      "active_models": 2,
+      "may_mae": 4.288834368783764
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 5,
+        "catboost": 90
+      },
+      "active_models": 3,
+      "may_mae": 4.285329782611714
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 10,
+        "catboost": 85
+      },
+      "active_models": 3,
+      "may_mae": 4.28524135351149
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 15,
+        "catboost": 80
+      },
+      "active_models": 3,
+      "may_mae": 4.289314524192264
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 20,
+        "catboost": 75
+      },
+      "active_models": 3,
+      "may_mae": 4.296741747611658
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 25,
+        "catboost": 70
+      },
+      "active_models": 3,
+      "may_mae": 4.3076799523913465
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 30,
+        "catboost": 65
+      },
+      "active_models": 3,
+      "may_mae": 4.321953037633461
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 35,
+        "catboost": 60
+      },
+      "active_models": 3,
+      "may_mae": 4.339947931849475
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 40,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.361480830009052
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 45,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.386346233836195
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 50,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.414472295464562
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 55,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.446249423839133
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 60,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.481148874609659
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 65,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.519009370850436
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 70,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.55893103190317
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 75,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.601080795561747
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 80,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.6455831444777065
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 85,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.692261388624646
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 90,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.741366154315643
+    },
+    {
+      "weights_percent": {
+        "ridge": 5,
+        "forest": 95,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.79268251690384
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 0,
+        "catboost": 90
+      },
+      "active_models": 2,
+      "may_mae": 4.286144370665796
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 5,
+        "catboost": 85
+      },
+      "active_models": 3,
+      "may_mae": 4.283484462684202
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 10,
+        "catboost": 80
+      },
+      "active_models": 3,
+      "may_mae": 4.2847351668407265
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 15,
+        "catboost": 75
+      },
+      "active_models": 3,
+      "may_mae": 4.289869219965514
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 20,
+        "catboost": 70
+      },
+      "active_models": 3,
+      "may_mae": 4.298443836444681
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 25,
+        "catboost": 65
+      },
+      "active_models": 3,
+      "may_mae": 4.310540519708586
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 30,
+        "catboost": 60
+      },
+      "active_models": 3,
+      "may_mae": 4.326153171898272
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 35,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.345240314223765
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 40,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.367611642760562
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 45,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.39326717755382
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 50,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.422648382604389
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 55,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.455380827957558
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 60,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.491034147079211
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 65,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.529303884123896
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 70,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.569886034811848
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 75,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.612942555201576
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 80,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.65835185153701
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 85,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.705925276340623
+    },
+    {
+      "weights_percent": {
+        "ridge": 10,
+        "forest": 90,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.755825384225949
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 0,
+        "catboost": 85
+      },
+      "active_models": 2,
+      "may_mae": 4.285697810836908
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 5,
+        "catboost": 80
+      },
+      "active_models": 3,
+      "may_mae": 4.284233646386926
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 10,
+        "catboost": 75
+      },
+      "active_models": 3,
+      "may_mae": 4.286608129169799
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 15,
+        "catboost": 70
+      },
+      "active_models": 3,
+      "may_mae": 4.292856546184444
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 20,
+        "catboost": 65
+      },
+      "active_models": 3,
+      "may_mae": 4.302577784275804
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 25,
+        "catboost": 60
+      },
+      "active_models": 3,
+      "may_mae": 4.315824270711328
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 30,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.332521408834632
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 35,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.352345873127155
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 40,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.375714861995434
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 45,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.402448640096923
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 50,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.4330981785515515
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 55,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.466539111353197
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 60,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.502791031463419
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 65,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.54159686599295
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 70,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.582908223515974
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 75,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.626818314291334
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 80,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.673001731382654
+    },
+    {
+      "weights_percent": {
+        "ridge": 15,
+        "forest": 85,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.721483206884018
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 0,
+        "catboost": 80
+      },
+      "active_models": 2,
+      "may_mae": 4.287780499865558
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 5,
+        "catboost": 75
+      },
+      "active_models": 3,
+      "may_mae": 4.287647735690737
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 10,
+        "catboost": 70
+      },
+      "active_models": 3,
+      "may_mae": 4.291284212641099
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 15,
+        "catboost": 65
+      },
+      "active_models": 3,
+      "may_mae": 4.298416421220831
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 20,
+        "catboost": 60
+      },
+      "active_models": 3,
+      "may_mae": 4.309150161792212
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 25,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.323465150199863
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 30,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.340957378009683
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 35,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.361758582367247
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 40,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.38605989425925
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 45,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.413980792239421
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 50,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.4453103447778926
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 55,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.47943205756955
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 60,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.516528095314116
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 65,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.556047853757723
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 70,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.598254980621282
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 75,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.642857207366223
+    },
+    {
+      "weights_percent": {
+        "ridge": 20,
+        "forest": 80,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.689708613490264
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 0,
+        "catboost": 75
+      },
+      "active_models": 2,
+      "may_mae": 4.29267456575053
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 5,
+        "catboost": 70
+      },
+      "active_models": 3,
+      "may_mae": 4.2938808768818255
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 10,
+        "catboost": 65
+      },
+      "active_models": 3,
+      "may_mae": 4.298415970647334
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 15,
+        "catboost": 60
+      },
+      "active_models": 3,
+      "may_mae": 4.30646829454758
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 20,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.318056806363441
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 25,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.33307999746756
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 30,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.351660231627639
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 35,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.3735309332577925
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 40,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.39892211383789
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 45,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.427769341244354
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 50,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.459758608619665
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 55,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.49476769503027
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 60,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.532424379663689
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 65,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.572931993855266
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 70,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.615963738815489
+    },
+    {
+      "weights_percent": {
+        "ridge": 25,
+        "forest": 75,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.661347688861524
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 0,
+        "catboost": 70
+      },
+      "active_models": 2,
+      "may_mae": 4.300415731822939
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 5,
+        "catboost": 65
+      },
+      "active_models": 3,
+      "may_mae": 4.30257329718864
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 10,
+        "catboost": 60
+      },
+      "active_models": 3,
+      "may_mae": 4.30810860715883
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 15,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.31704559101324
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 20,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.329427003120335
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 25,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.3452536252092
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 30,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.364734608969349
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 35,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.387650324042165
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 40,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.414165093009175
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 45,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.443737160016837
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 50,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.476554444131834
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 55,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.512293533264525
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 60,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.5508293534951
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 65,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.592063295873909
+    },
+    {
+      "weights_percent": {
+        "ridge": 30,
+        "forest": 70,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.635945859636704
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 0,
+        "catboost": 65
+      },
+      "active_models": 2,
+      "may_mae": 4.310602671755375
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 5,
+        "catboost": 60
+      },
+      "active_models": 3,
+      "may_mae": 4.313524424955308
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 10,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.320022382472097
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 15,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.330042254055383
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 20,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.343065295093029
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 25,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.359616492975713
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 30,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.379930612524376
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 35,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.403794989547692
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 40,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.431223193431308
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 45,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.461649541049156
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 50,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.495300868821232
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 55,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.531903002837632
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 60,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.571412875199224
+    },
+    {
+      "weights_percent": {
+        "ridge": 35,
+        "forest": 65,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.6135739446630355
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 0,
+        "catboost": 60
+      },
+      "active_models": 2,
+      "may_mae": 4.322822158756962
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 5,
+        "catboost": 55
+      },
+      "active_models": 3,
+      "may_mae": 4.32663705305466
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 10,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.334161683744578
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 15,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.344910978883483
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 20,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.358766377863039
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 25,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.376271537585532
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 30,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.397220954075945
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 35,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.421982214241275
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 40,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.45009335921022
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 45,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.481395337349739
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 50,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.515924723524432
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 55,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.553561904523913
+    },
+    {
+      "weights_percent": {
+        "ridge": 40,
+        "forest": 60,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.594059764855959
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 0,
+        "catboost": 55
+      },
+      "active_models": 2,
+      "may_mae": 4.336855177173842
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 5,
+        "catboost": 50
+      },
+      "active_models": 3,
+      "may_mae": 4.341788067411738
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 10,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.350355638395045
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 15,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.361752663550502
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 20,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.37672218619447
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 25,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.394926180546947
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 30,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.416911324185453
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 35,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.442615158232982
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 40,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.471331370657204
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 45,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.503564342135561
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 50,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.538788258549156
+    },
+    {
+      "weights_percent": {
+        "ridge": 45,
+        "forest": 55,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.577282303850448
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 0,
+        "catboost": 50
+      },
+      "active_models": 2,
+      "may_mae": 4.352673609078458
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 5,
+        "catboost": 45
+      },
+      "active_models": 3,
+      "may_mae": 4.35866515851746
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 10,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.36821317072553
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 15,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.380823833308895
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 20,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.3968558016835635
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 25,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.4160953809066
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 30,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.439007883292828
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 35,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.4654228638029405
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 40,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.4949837621932
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 45,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.527870888267169
+    },
+    {
+      "weights_percent": {
+        "ridge": 50,
+        "forest": 50,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.563837768604689
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 0,
+        "catboost": 45
+      },
+      "active_models": 2,
+      "may_mae": 4.370450636834138
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 5,
+        "catboost": 40
+      },
+      "active_models": 3,
+      "may_mae": 4.377710310445567
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 10,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.388168177997351
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 15,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.402022591174501
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 20,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.419084003282845
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 25,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.439432854396417
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 30,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.463153269270938
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 35,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.490365684845525
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 40,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.520618331824145
+    },
+    {
+      "weights_percent": {
+        "ridge": 55,
+        "forest": 45,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.554150422851063
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 0,
+        "catboost": 40
+      },
+      "active_models": 2,
+      "may_mae": 4.390964158388829
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 5,
+        "catboost": 35
+      },
+      "active_models": 3,
+      "may_mae": 4.399007083305762
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 10,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.410433909727446
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 15,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.425367925161424
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 20,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.443290956121772
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 25,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.464520740530564
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 30,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.489137825980044
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 35,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.517123184516737
+    },
+    {
+      "weights_percent": {
+        "ridge": 60,
+        "forest": 40,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.548077915027573
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 0,
+        "catboost": 35
+      },
+      "active_models": 2,
+      "may_mae": 4.413463102530849
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 5,
+        "catboost": 30
+      },
+      "active_models": 3,
+      "may_mae": 4.422215358314637
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 10,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.434818076060521
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 15,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.450485744897897
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 20,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.469398103579935
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 25,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.4914883716691385
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 30,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.517107474817584
+    },
+    {
+      "weights_percent": {
+        "ridge": 65,
+        "forest": 35,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.5456323910850625
+    },
+    {
+      "weights_percent": {
+        "ridge": 70,
+        "forest": 0,
+        "catboost": 30
+      },
+      "active_models": 2,
+      "may_mae": 4.437646642374657
+    },
+    {
+      "weights_percent": {
+        "ridge": 70,
+        "forest": 5,
+        "catboost": 25
+      },
+      "active_models": 3,
+      "may_mae": 4.447489187759566
+    },
+    {
+      "weights_percent": {
+        "ridge": 70,
+        "forest": 10,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.460967489139062
+    },
+    {
+      "weights_percent": {
+        "ridge": 70,
+        "forest": 15,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.4776395655298735
+    },
+    {
+      "weights_percent": {
+        "ridge": 70,
+        "forest": 20,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.4974536915261965
+    },
+    {
+      "weights_percent": {
+        "ridge": 70,
+        "forest": 25,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.520358699761956
+    },
+    {
+      "weights_percent": {
+        "ridge": 70,
+        "forest": 30,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.546608117822622
+    },
+    {
+      "weights_percent": {
+        "ridge": 75,
+        "forest": 0,
+        "catboost": 25
+      },
+      "active_models": 2,
+      "may_mae": 4.463749761859968
+    },
+    {
+      "weights_percent": {
+        "ridge": 75,
+        "forest": 5,
+        "catboost": 20
+      },
+      "active_models": 3,
+      "may_mae": 4.474716526601076
+    },
+    {
+      "weights_percent": {
+        "ridge": 75,
+        "forest": 10,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.489092142599194
+    },
+    {
+      "weights_percent": {
+        "ridge": 75,
+        "forest": 15,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.506678366898157
+    },
+    {
+      "weights_percent": {
+        "ridge": 75,
+        "forest": 20,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.527201323690378
+    },
+    {
+      "weights_percent": {
+        "ridge": 75,
+        "forest": 25,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.550841730473939
+    },
+    {
+      "weights_percent": {
+        "ridge": 80,
+        "forest": 0,
+        "catboost": 20
+      },
+      "active_models": 2,
+      "may_mae": 4.491849683530537
+    },
+    {
+      "weights_percent": {
+        "ridge": 80,
+        "forest": 5,
+        "catboost": 15
+      },
+      "active_models": 3,
+      "may_mae": 4.503862262593095
+    },
+    {
+      "weights_percent": {
+        "ridge": 80,
+        "forest": 10,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.519110758889984
+    },
+    {
+      "weights_percent": {
+        "ridge": 80,
+        "forest": 15,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.537414149190614
+    },
+    {
+      "weights_percent": {
+        "ridge": 80,
+        "forest": 20,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.558784524525933
+    },
+    {
+      "weights_percent": {
+        "ridge": 85,
+        "forest": 0,
+        "catboost": 15
+      },
+      "active_models": 2,
+      "may_mae": 4.521944947772465
+    },
+    {
+      "weights_percent": {
+        "ridge": 85,
+        "forest": 5,
+        "catboost": 10
+      },
+      "active_models": 3,
+      "may_mae": 4.534886865760224
+    },
+    {
+      "weights_percent": {
+        "ridge": 85,
+        "forest": 10,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.550870208689947
+    },
+    {
+      "weights_percent": {
+        "ridge": 85,
+        "forest": 15,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.569848769843835
+    },
+    {
+      "weights_percent": {
+        "ridge": 90,
+        "forest": 0,
+        "catboost": 10
+      },
+      "active_models": 2,
+      "may_mae": 4.5539187175489975
+    },
+    {
+      "weights_percent": {
+        "ridge": 90,
+        "forest": 5,
+        "catboost": 5
+      },
+      "active_models": 3,
+      "may_mae": 4.567448883288061
+    },
+    {
+      "weights_percent": {
+        "ridge": 90,
+        "forest": 10,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.584086872847673
+    },
+    {
+      "weights_percent": {
+        "ridge": 95,
+        "forest": 0,
+        "catboost": 5
+      },
+      "active_models": 2,
+      "may_mae": 4.587387252066294
+    },
+    {
+      "weights_percent": {
+        "ridge": 95,
+        "forest": 5,
+        "catboost": 0
+      },
+      "active_models": 2,
+      "may_mae": 4.601601163699487
+    },
+    {
+      "weights_percent": {
+        "ridge": 100,
+        "forest": 0,
+        "catboost": 0
+      },
+      "active_models": 1,
+      "may_mae": 4.6225624261686615
+    }
+  ],
+  "june_comparison": [
+    {
+      "Model": "ridge",
+      "ridge %": 100.0,
+      "forest %": 0.0,
+      "catboost %": 0.0,
+      "MAE": 4.279894044470339,
+      "RMSE": 7.050701547180282,
+      "MSE": 49.71239230741042,
+      "R squared": 0.5792843803459562,
+      "Mean signed error": -0.34219721125809266
+    },
+    {
+      "Model": "forest",
+      "ridge %": 0.0,
+      "forest %": 100.0,
+      "catboost %": 0.0,
+      "MAE": 4.562825912357739,
+      "RMSE": 7.255841397902643,
+      "MSE": 52.64723439151778,
+      "R squared": 0.5544468328313109,
+      "Mean signed error": -0.3609179892799326
+    },
+    {
+      "Model": "catboost",
+      "ridge %": 0.0,
+      "forest %": 0.0,
+      "catboost %": 100.0,
+      "MAE": 4.062105512019954,
+      "RMSE": 6.837135949957288,
+      "MSE": 46.74642799819835,
+      "R squared": 0.6043853150285127,
+      "Mean signed error": -0.6378454053444816
+    },
+    {
+      "Model": "Original frozen blend",
+      "ridge %": 9.999999999999998,
+      "forest %": 0.0,
+      "catboost %": 90.0,
+      "MAE": 4.0395806380235895,
+      "RMSE": 6.797211461709515,
+      "MSE": 46.2020836551952,
+      "R squared": 0.6089920973003368,
+      "Mean signed error": -0.6082805859358428
+    },
+    {
+      "Model": "Best two-model blend",
+      "ridge %": 15.0,
+      "forest %": 0.0,
+      "catboost %": 85.0,
+      "MAE": 4.031972352207853,
+      "RMSE": 6.782329237181034,
+      "MSE": 45.99998988152067,
+      "R squared": 0.6107024154579087,
+      "Mean signed error": -0.5934981762315238
+    },
+    {
+      "Model": "Best all-three blend",
+      "ridge %": 10.0,
+      "forest %": 5.0,
+      "catboost %": 85.0,
+      "MAE": 4.03550134079151,
+      "RMSE": 6.784419317429157,
+      "MSE": 46.02834547470591,
+      "R squared": 0.6104624422760949,
+      "Mean signed error": -0.5944342151326155
+    },
+    {
+      "Model": "Overall May winner",
+      "ridge %": 10.0,
+      "forest %": 5.0,
+      "catboost %": 85.0,
+      "MAE": 4.03550134079151,
+      "RMSE": 6.784419317429157,
+      "MSE": 46.02834547470591,
+      "R squared": 0.6104624422760949,
+      "Mean signed error": -0.5944342151326155
+    }
+  ],
+  "graph_files": [
+    "lesson_results\\additional_ensemble_graphs\\01_pair_weight_search.png",
+    "lesson_results\\additional_ensemble_graphs\\02_three_model_weight_map.png",
+    "lesson_results\\additional_ensemble_graphs\\03_june_ensemble_comparison.png"
+  ]
+}
