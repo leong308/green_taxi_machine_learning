@@ -2,6 +2,7 @@ from hashlib import file_digest
 from pathlib import Path
 import json
 import joblib
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
@@ -64,13 +65,32 @@ print("February MAE:", round(february_mae, 4), "minutes")
 print(pd.DataFrame({"actual": valid[TARGET].head().to_numpy(),
                       "prediction": prediction[:5]}).round(2))
 
+# Plot every February validation prediction against the duration of the same trip.
+actual = valid[TARGET].to_numpy()
+limit = 10 * np.ceil(max(actual.max(), prediction.max()) / 10)
+fig, ax = plt.subplots(figsize=(7.2, 6.6), layout="constrained")
+ax.scatter(actual, prediction, s=9, color="#2265A0", alpha=0.25, linewidths=0)
+ax.plot([0, limit], [0, limit], "--", color="#263645", label="Perfect prediction")
+ax.set(
+    xlabel="Actual trip duration (minutes)",
+    ylabel="Predicted trip duration (minutes)",
+    xlim=(0, limit), ylim=(0, limit), aspect="equal",
+)
+ax.set_title(f"{len(actual):,} trips  |  α = {params['alpha']:g}  |  MAE = {february_mae:.4f} min")
+ax.grid(alpha=0.25)
+ax.set_axisbelow(True)
+ax.legend(loc="upper left")
+RESULTS.mkdir(exist_ok=True)
+validation_plot = RESULTS / "ridge_february_validation.png"
+fig.savefig(validation_plot, dpi=200)
+print("Validation graph:", validation_plot)
+
 # added 6 candidates settings
 candidates = [{"alpha": value} for value in [1, 0.1, 3, 10, 30, 100]]
 print(len(candidates), "configurations")
 
 # fit fresh model for each candidate and month
 REUSE_TUNING = True
-RESULTS.mkdir(exist_ok=True)
 tuning_file = RESULTS / f"{KEY}_tuning.json"
 with DATA.open("rb") as file:
     fingerprint = file_digest(file, "sha256").hexdigest()
@@ -117,3 +137,4 @@ summary = {"model": KEY, "data_sha256": fingerprint, "may_mae": may_mae,
     json.dumps(summary, indent=2), encoding="utf-8"
 )
 print("May MAE:", round(may_mae, 4), "minutes")
+plt.show()

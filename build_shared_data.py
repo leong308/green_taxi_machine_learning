@@ -75,6 +75,7 @@ def clean_month(month, seed):
     rows["record_id"] = month + "-" + rows.index.astype(str)
     print(month, int(eligible.sum()), "eligible before sampling")
     return rows
+
 first_month = clean_month("2024-01", seed=6001)
 print("January sample:", first_month.shape)
 

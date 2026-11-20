@@ -59,6 +59,26 @@ print("February MAE:", round(february_mae, 4), "minutes")
 print(pd.DataFrame({"actual": valid[TARGET].head().to_numpy(),
                       "prediction": prediction[:5]}).round(2))
 
+# Plot every February validation prediction against the duration of the same trip.
+import matplotlib.pyplot as plt
+
+actual = valid[TARGET].to_numpy()
+limit = 10 * np.ceil(max(actual.max(), prediction.max()) / 10)
+with plt.rc_context({"axes.spines.top": False, "axes.spines.right": False,
+                     "axes.axisbelow": True, "grid.alpha": 0.25}):
+    fig, ax = plt.subplots(figsize=(6.2, 5.3), layout="constrained")
+    ax.scatter(actual, prediction, color="#3b6c91", s=8, alpha=0.24, linewidths=0)
+    ax.plot([0, limit], [0, limit], "--", color="#283846", label="Perfect prediction")
+    ax.set(xlabel="Actual trip duration (minutes)", ylabel="Predicted trip duration (minutes)",
+           xlim=(0, limit), ylim=(0, limit), aspect="equal")
+    ax.grid()
+    ax.legend(loc="upper left", frameon=False)
+    ax.set_title(f"{len(actual):,} trips | {model.tree_count_} trees | MAE {february_mae:.4f} min")
+    validation_plot = Path("for_documentation") / "figures" / "catboost_february_validation.png"
+    validation_plot.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(validation_plot, dpi=250)
+print("Validation graph:", validation_plot)
+
 candidates = [
     {"iterations": trees, "depth": depth, "learning_rate": rate, 
      "l2_leaf_reg": penalty} 
@@ -120,3 +140,4 @@ summary = {"model": KEY, "data_sha256": fingerprint, "may_mae": may_mae,
     json.dumps(summary, indent=2), encoding="utf-8"
 )
 print("May MAE:", round(may_mae, 4), "minutes")
+plt.show()
