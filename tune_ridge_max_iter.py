@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent
 trips = pd.read_parquet(ROOT / "data" / "lesson_trips.parquet")
 TARGET = "duration_min"
 NYC = "America/New_York"
-LIMITS = [None, 50, 100, 200, 500, 1000]
+LIMITS = [None, 50, 100, 128, 200, 500, 1000]
 MONTHS = ["2024-02", "2024-03", "2024-04"]
 CATS = ["pu_zone", "do_zone", "zone_pair", "pu_borough", "do_borough",
         "borough_pair", "time_band"]
